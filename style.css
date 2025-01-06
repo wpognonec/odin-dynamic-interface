@@ -1,0 +1,106 @@
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+#left-button, #right-button {
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(4%) saturate(21%) hue-rotate(4deg) brightness(92%) contrast(90%);
+}
+
+.menu-items {
+  border: 1px solid black;
+  background: white;
+  width: fit-content;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+}
+
+.menu-item {
+  padding: 0 10px;
+}
+
+.menu-item:hover {
+  background: gray;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.frame {
+  background: gray;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.images {
+  left: 0px;
+  display: flex;
+  position: absolute;
+}
+
+#image1 {
+  height: 300px;
+  width: 500px;
+  background: yellow;
+}
+
+#image2 {
+  height: 300px;
+  width: 500px;
+  background: blue;
+}
+
+#image3 {
+  height: 300px;
+  width: 500px;
+  background: red;
+}
+
+#image4 {
+  height: 300px;
+  width: 500px;
+  background: green;
+}
+
+#image5 {
+  height: 300px;
+  width: 500px;
+  background: purple;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+}
+
+.dots {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.selected {
+  background: darkblue;
+}

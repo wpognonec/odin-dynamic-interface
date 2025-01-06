@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="menu-wrapper">
+      <svg
+        class="button"
+        xmlns="http://www.w3.org/2000/svg"
+        height="24px"
+        viewBox="0 -960 960 960"
+        width="24px"
+        fill="#000000"
+      >
+        <path
+          d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+        />
+      </svg>
+      <div class="menu-items hidden">
+        <div class="menu-item">Home</div>
+        <div class="menu-item">Products</div>
+        <div class="menu-item">Support</div>
+        <div class="menu-item">About</div>
+      </div>
+    </div>
+    <div class="carousel-wrapper">
+      <div>
+        <div class="frame">
+          <div class="images">
+            <div id="image1"></div>
+            <div id="image2"></div>
+            <div id="image3"></div>
+            <div id="image4"></div>
+            <div id="image5"></div>
+          </div>
+        </div>
+        <div class="dots">
+          <a id="left-button">&#10094;</a>
+          <span class="dot selected"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <a id="right-button">&#10095;</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
